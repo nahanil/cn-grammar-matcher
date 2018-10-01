@@ -23,6 +23,7 @@
     "test-last": "yarn test `git st | grep test | awk '{print $NF}'`"
   },
   "dependencies": {
+    "request": "^2.34",
     "request-promise-native": "^1.0.5"
   },
   "devDependencies": {
